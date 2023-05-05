@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+.main {
+  height: 80vh;
+}
+
+.main-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #cc212a;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.footer {
+  height: 20vh;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.3rem;
+  background-color: #cc212a;
+  position: absolute;
+  bottom: 62%;
+}
+
+.footer-logo {
+  background-color: #cc212a;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+  border-radius: 100%;
+  z-index: 999;
+}
+
+.footer-copy {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+}
